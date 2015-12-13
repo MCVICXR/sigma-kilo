@@ -1,0 +1,267 @@
+/* main body css */
+
+/*	commence primary ignition */
+
+	header, section, footer, aside, nav, article, figure, figcaption {
+			display: block;}
+	body {
+		font-family: Georgia, Times New Roman, "serif", Myriad Pro;
+		background-position: center;
+		background: url('green_cup.png');}
+
+	#page { 
+		width: 960px;
+		height: 850px;
+		margin: -25px auto 0px auto;
+		background: #fff;
+		border-radius: 10px;
+		-moz-border-radius: 10px;
+		-webkit-border-radius: 10px;}
+
+/* end primary ignition */
+
+/* start nav */
+
+	ul.tomcat { 
+		font-family: 'Bad Script', cursive;
+		position: fixed;
+		top: 0px;
+		left: 0px;
+		margin: 0px auto;
+		padding-top: 10px;
+		width: 100%;
+		height: 50px;
+		background-color: #fff;
+		z-index: 10;
+		list-style: none;
+		font-size: 22px;
+		text-align: center;
+		opacity: 0.90;
+		filter: alpha(opacity=90);
+		-moz-box-shadow: 0 0 10px #777777;
+		-webkit-box-shadow: 0 0 10px #777777;
+		box-shadow: 0 0 10px #777777;}
+
+	li.hornet {
+		color: #000;
+		display: inline;
+		text-decoration: none;
+		background-color: #fff;
+		padding: 5px 40px;
+		margin: auto;
+		height: 30px;
+		width: auto;}
+
+	li#dodo { 
+		display: inline;
+		height: 20px;
+		width: 200px;
+		margin-right: 333px;}
+
+	li#sigmaKilo { 
+		margin-left: -67px;
+		border-left: 1px solid #fff;
+		padding-left: 1px;}
+
+	li#rechts { 
+		border-right: 1px solid #fff;
+		margin-right: 40px;
+		padding-right: 1px;}
+
+	a#raptor { 
+		color: #000;
+		text-decoration: none;}
+		
+/* end nav */
+
+/* start page */
+
+	img.sigmakilo { 
+		height: 400px;
+		width: 400px;
+		margin: 85px 0px 15px -25px;
+		float: left;
+		border-radius: 10px;
+		-moz-border-radius: 10px;
+		-webkit-border-radius: 10px;}
+
+	img.sigmabravo { 
+		height: 400px;
+		width: 400px;
+		margin: 5px 0px 15px -25px;
+		float: left;
+		clear: both;
+		border-radius: 10px;
+		-moz-border-radius: 10px;
+		-webkit-border-radius: 10px;}
+
+	div.squareOne { 
+		position: relative;
+		height: 400px;
+		width: 515px;
+		float: right;
+		margin: 75px 15px 0px 5px;
+		text-align: left;
+		border-radius: 10px;
+		-moz-border-radius: 10px;
+		-webkit-border-radius: 10px;}
+
+	div p.description1 { 
+		padding: 10px 10px 10px 20px;
+		font-family: 'Open Sans', sans-serif;
+		font-size: 16px;
+		line-height: 24px;
+		text-align: left;
+		color: #000;}
+
+	div p.description2 { 
+		padding: 10px 10px 10px 20px;
+		font-family: 'Open Sans', sans-serif;
+		font-size: 16px;
+		line-height: 24px;
+		text-align: left;
+		color: #000;}
+
+	div p.description3 { 
+		padding: 10px 10px 10px 20px;
+		font-family: 'Open Sans', sans-serif;
+		font-size: 16px;
+		line-height: 24px;
+		text-align: left;
+		color: #000;}
+
+	div.buttonAlpha { 
+		float: right;
+		width: 285px;
+		height: 75px;
+		margin: 10px 122.5px 0px 0px;
+		background-color: #ece1ca;
+		border-radius: 10px;
+		-moz-border-radius: 10px;
+		-webkit-border-radius: 10px;}
+
+	#buttonAlpha {
+		font-family: 'Bad Script', cursive;
+		color: #000;
+		font-size: 20px;
+		padding: 0px 0px 8px 20px;}
+
+	/*div p.description3 { 
+		padding: 2px 10px 10px 15px;
+		font-family: 'Open Sans', sans-serif;
+		font-size: 16px;
+		color: #000;} */
+
+	div.squareTwo { 
+		clear: both;
+		height: 340px;
+		width: 630px;
+		margin: 10px auto 15px auto;
+		text-align: center;
+		border-radius: 10px;
+		-moz-border-radius: 10px;
+		-webkit-border-radius: 10px;}
+
+	div p.description4 { 
+		padding: 20px 10px 10px 20px;
+		font-family: 'Open Sans', sans-serif;
+		font-size: 16px;
+		line-height: 24px;
+		text-align: left;
+		color: #000;}
+
+	div p.description5 { 
+		padding: 10px 10px 10px 20px;
+		font-family: 'Open Sans', sans-serif;
+		font-size: 16px;
+		line-height: 24px;
+		text-align: left;
+		color: #000;}
+
+	div.buttonBravo { 
+		width: 285px;
+		height: 75px;
+		margin: 25px auto 10px auto;
+		background-color: #ece1ca;
+		border-radius: 10px;
+		-moz-border-radius: 10px;
+		-webkit-border-radius: 10px;}
+
+	#buttonBravo {
+		float: right;
+		font-family: 'Bad Script', cursive;
+		color: #000;
+		text-decoration: none;
+		font-size: 20px;
+		padding: 0px 110px 8px 0px;}
+
+	/*div.button3 { 
+		float: right;
+		width: 285px;
+		height: 75px;
+		margin: 30px 15px 0px 0px;
+		-moz-box-shadow: inset 0 0 10px #777777;
+		-webkit-box-shadow: inset 0 0 10px #777777;
+		box-shadow: inset 0 0 10px #777777;
+		border-radius: 10px;
+		-moz-border-radius: 10px;
+		-webkit-border-radius: 10px;}
+
+	p.button3 {
+		font-family: 'Bad Script', cursive;
+		color: #000;
+		font-size: 20px;
+		padding: 0px 0px 8px 90px;}
+
+	div.button4 {
+		float: right;
+		width: 285px;
+		height: 75px;
+		margin: 15px 15px 0px 0px;
+		-moz-box-shadow: inset 0 0 10px #777777;
+		-webkit-box-shadow: inset 0 0 10px #777777;
+		box-shadow: inset 0 0 10px #777777;
+		border-radius: 10px;
+		-moz-border-radius: 10px;
+		-webkit-border-radius: 10px;}	
+
+	p.button4 {
+		font-family: 'Bad Script', cursive;
+		color: #000;
+		font-size: 20px;
+		padding: 0px 0px 8px 100px;}
+
+	div.button5 { 
+		float: right;
+		width: 285px;
+		height: 75px;
+		margin: 15px 15px 0px 0px;
+		background-color: #fff;
+		-moz-box-shadow: inset 0 0 10px #777777;
+		-webkit-box-shadow: inset 0 0 10px #777777;
+		box-shadow: inset 0 0 10px #777777;
+		border-radius: 10px;
+		-moz-border-radius: 10px;
+		-webkit-border-radius: 10px;}
+
+	p.button5 {
+		font-family: 'Bad Script', cursive;
+		color: #000;
+		font-size: 20px;
+		padding: 0px 0px 8px 90px;}
+
+
+
+/* end page */
+
+/* start footer */
+
+	footer { 
+		clear: both;}
+
+	p.ende { 
+		text-align: center;
+		margin: 5px auto;
+		font-size: 12px;}
+
+/* end footer */

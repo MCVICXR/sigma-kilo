@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link href='http://fonts.googleapis.com/css?family=Bad+Script' rel='stylesheet' type='text/css' />
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+		<link rel="icon" type="image/png" href="images/icon.png" />
+		<title>Sigma Kilo - Yoga</title>
+		<meta charset="UTF-8" />
+		<link rel="stylesheet" href="css/sigmakilo.css" />
+		<meta http-equiv="author" content="Robert McVicar" />
+		<script type="text/javascript">
+			var slideimages = new Array() // create new array to preload images
+			slideimages[0] = new Image() // create new instance of image object
+			slideimages[0].src = "images/sigmakilo.jpg" // set image src property to image path, preloading image in the process
+			slideimages[1] = new Image()
+			slideimages[1].src = "images/yogabeach2.jpg"
+			slideimages[2] = new Image()
+			slideimages[2].src = "images/pose.jpg"
+		</script>
+	</head>
+	<body>
+		<div id="page">
+			<nav>
+				<ul class="tomcat">
+					<li class="hornet" id="sigmaKilo"><a href="index.html" id="raptor">SIGMA KILO</a></li>
+					<li class="hornet"><a href="#" id="raptor">yoga</a></li>
+					<li class="hornet"><a href="#" id="raptor">fitness</a></li>
+					<li class="hornet"><a href="#" id="raptor">media</a></li>
+					<li class="hornet"><a href="#" id="raptor">about</a></li>
+					<li class="hornet" id="rechts"><a href="#" id="raptor">contact</a></li>
+				</ul>
+			</nav>
+			<div class="right">
+			</div>
+			<figure>
+				<img src="images/sigmakilo.jpg" class="sigmakilo" id="slide" alt="Sigma Kilo">
+				<script type="text/javascript">
+					//variable that will increment through the images
+					var step=0
+
+					function slideit(){
+ 					//if browser does not support the image object, exit.
+ 					if (!document.images)
+  					return
+ 					document.getElementById('slide').src = slideimages[step].src
+ 					if (step<2)
+ 					 step++
+ 					else
+ 					 step=0
+					 //call function "slideit()" every 7 seconds
+					 setTimeout("slideit()",7000)
+					}
+					slideit()
+				</script>
+			</figure>
+			<article>
+				<div class="squareOne">
+					<p class="description1">
+						Whether you're a yoga veteran looking for a more grounded experience, or someone that has never tried yoga before, Lorem Ipsum wants to work with you to improve your overall health and well being.
+					</p>
+					<p class="description2">
+						Lorem is a yoga practioner who believes that everyone has has their entire life to learn. In no better place does Lorem apply this philosophy than in her yoga. As a student, she hopes to continually absorb knowledge. As an instructor, she aims to make learning yoga accessible to everyone.
+					</p>
+					<a href="#">
+						<div class="buttonAlpha">
+							<p id="buttonAlpha">Learn more about Yoga with SK</p>
+						</div>
+					</a>
+				</div>
+				<div class="squareTwo">
+					<p class="description4">
+						Lorem's unique approach to yoga fosters a meditative experience that improves the mind and relaxes the body. Her careful instruction stimulates the brain. Her thoughtful methods ensure a physically rewarding practice.
+					</p>
+					<p class="description5">
+						Lorem is currently teaching at the Ipsum Athletic Club in Lorem and Lorem Ipsum Yoga Studio in Loremipsum. Lorem is able to teach all types of classes, big or small, public or private. Please contact Lorem for information regarding pricing and scheduling. 
+					</p>
+					<a href="#">
+						<div class="buttonBravo">
+							<p id="buttonBravo">Contact</p>
+						</div>
+					</a>
+				</div>		
+			</article>
+		</div>
+			<footer>
+				<p class="ende">&copy; 2015 - Webdesign by MCVICXR</p>
+			</footer>
+	</body>
+</html>
